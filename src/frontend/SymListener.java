@@ -24,6 +24,7 @@ public class SymListener implements ActionListener {
     private DES des;
 
     private String selectAlgo = "AES";
+    System.out.println("anh thư");
     private String selectType = "File";
 
     private String srcf, desf, de, path, ext;

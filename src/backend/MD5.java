@@ -17,6 +17,7 @@ public class MD5 {
         byte[] digest = md.digest(bs);
         BigInteger re = new BigInteger(1, digest);
         return re.toString(16);
+        System.out.println("anh thư");
     }
     // 2- băm với file
     public String hashFile(String src) throws Exception {

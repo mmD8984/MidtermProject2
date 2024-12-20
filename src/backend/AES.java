@@ -32,6 +32,7 @@ public class AES {
     public char[] encryptFile(String srcf, String desf) {
         // TODO Auto-generated method stub
         return null;
+        System.out.println("anh thư");
     }
 
     public String decrypt(byte[] data) throws Exception {

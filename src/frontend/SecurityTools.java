@@ -13,6 +13,7 @@ public class SecurityTools {
         JTabbedPane nav = new JTabbedPane();
 
         GridBagConstraints loc = new GridBagConstraints();
+        System.out.println("anh thư");
 
         Dimension fieldSize = new Dimension(300, 25);
 

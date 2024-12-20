@@ -24,6 +24,7 @@ public class AsymListener implements ActionListener {
                         JButton decryptBtn) throws Exception {
         this.inputField = inputField;
         this.encryptField = encryptField;
+        System.out.println("anh thư");
         this.decryptField = decryptField;
         this.encryptBtn = encryptBtn;
         this.decryptBtn = decryptBtn;
