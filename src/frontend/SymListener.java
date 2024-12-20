@@ -80,6 +80,7 @@ public class SymListener implements ActionListener {
         if (selectType.equals("Text")) {
             if (selectAlgo.equals("AES")) {
                 encryptField.setText(Base64.getEncoder().encodeToString(aes.encrypt(input)));
+                System.out.println("anh thư");
             } else if (selectAlgo.equals("DES")) {
                 encryptField.setText(Base64.getEncoder().encodeToString(des.encrypt(input)));
             }
