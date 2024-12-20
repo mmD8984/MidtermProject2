@@ -26,13 +26,13 @@ public class AES {
         byte[] data = text.getBytes(StandardCharsets.UTF_8);
         Cipher cipher = Cipher.getInstance("AES");
         cipher.init(Cipher.ENCRYPT_MODE, this.key);
+        System.out.println("anh thư");
         return cipher.doFinal(data);
     }
 
     public char[] encryptFile(String srcf, String desf) {
         // TODO Auto-generated method stub
         return null;
-        System.out.println("anh thư");
     }
 
     public String decrypt(byte[] data) throws Exception {
